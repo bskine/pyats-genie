@@ -1,0 +1,5 @@
+------------------------------------
+##      genie parse commands      ##
+------------------------------------
+
+genie parse "show int status" --testbed-file testbed/ewing.yml

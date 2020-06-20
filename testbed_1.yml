@@ -1,0 +1,46 @@
+---
+
+testbed:
+    name: ewing_testbed
+	credentials:
+	    default:
+		    username: cisco
+			password: cisco
+		enable:
+            password: cisco		
+devices:
+    alp-sw2:
+        os: ios
+	    type: ios
+	    connections:
+		    vty:
+			    protocol: ssh
+				ip: 172.16.0.102
+    alp-sw3:
+        os: ios
+	    type: ios
+	    connections:
+		    vty:
+			    protocol: ssh
+				ip: 172.16.0.103	
+    alp-sw4:
+        os: ios
+	    type: ios
+	    connections:
+		    vty:
+			    protocol: ssh
+				ip: 172.16.0.104	  
+    alp-sw5:
+        os: ios
+	    type: ios
+	    connections:
+		    vty:
+			    protocol: ssh
+				ip: 172.16.0.105
+    alp-sw6:
+        os: ios
+	    type: ios
+	    connections:
+		    vty:
+			    protocol: ssh
+				ip: 172.16.0.106				
